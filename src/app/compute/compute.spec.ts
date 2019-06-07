@@ -1,4 +1,4 @@
-import { compute } from ’./ compute ’ ;
+import { compute } from ’./compute ’ ;
 describe ( ’ compute ’ , () => { // suite
 i t ( ’ should return 0 i f input i s negative ’ , () => {
 const r e su l t = compute(−1);

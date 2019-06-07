@@ -1,11 +1,11 @@
-import { compute } from ’./compute ’ ;
-describe ( ’ compute ’ , () => { // suite
-i t ( ’ should return 0 i f input i s negative ’ , () => {
-const r e su l t = compute(−1);
-expect ( r e su l t ). toBe (0);
+import { compute } from ’./compute’ ;
+describe(’compute’, () => { // suite
+it(’should return 0 if input is negative’, () => {
+const result = compute(−1);
+expect (result).toBe(0);
 })
-i t ( ’ should increment i f input i s positive ’ , () => {
-const r e su l t = compute (1);
-expect ( r e su l t ). toBe (2);
+it(’should increment if input is positive’, () => {
+const result = compute(1);
+expect (result).toBe(2);
 })
 })

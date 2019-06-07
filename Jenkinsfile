@@ -10,7 +10,7 @@ node{
 		sh 'ng build --progress false --prod --aot'
 		sh 'tar -cvzf dist.tar.gz --strip-components=1 dist'
 		}	
-		archive 'dist.tar.gz'
+		archiveArtifacts artifacts: 'dist.tar.gz'
 	}
 	stage('Test'){
 		docker.image('trion/ng-cli-karma').inside{
